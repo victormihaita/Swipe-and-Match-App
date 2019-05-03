@@ -12,26 +12,8 @@
 		BA7C06A1227CE90A0054FE02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA7C069F227CE90A0054FE02 /* Main.storyboard */; };
 		BA7C06A3227CE90A0054FE02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA7C06A2227CE90A0054FE02 /* Assets.xcassets */; };
 		BA7C06A6227CE90A0054FE02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA7C06A4227CE90A0054FE02 /* LaunchScreen.storyboard */; };
-		BA7C06B1227CE90B0054FE02 /* Swipe_and_MatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7C06B0227CE90B0054FE02 /* Swipe_and_MatchTests.swift */; };
-		BA7C06BC227CE90B0054FE02 /* Swipe_and_MatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7C06BB227CE90B0054FE02 /* Swipe_and_MatchUITests.swift */; };
+		BA7C06CB227CF0DA0054FE02 /* Extensions+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7C06CA227CF0DA0054FE02 /* Extensions+UIView.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		BA7C06AD227CE90B0054FE02 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BA7C0690227CE90A0054FE02 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BA7C0697227CE90A0054FE02;
-			remoteInfo = "Swipe and Match";
-		};
-		BA7C06B8227CE90B0054FE02 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BA7C0690227CE90A0054FE02 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BA7C0697227CE90A0054FE02;
-			remoteInfo = "Swipe and Match";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		BA7C0698227CE90A0054FE02 /* Swipe and Match.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swipe and Match.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,30 +23,11 @@
 		BA7C06A2227CE90A0054FE02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA7C06A5227CE90A0054FE02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA7C06A7227CE90A0054FE02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA7C06AC227CE90B0054FE02 /* Swipe and MatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swipe and MatchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA7C06B0227CE90B0054FE02 /* Swipe_and_MatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swipe_and_MatchTests.swift; sourceTree = "<group>"; };
-		BA7C06B2227CE90B0054FE02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA7C06B7227CE90B0054FE02 /* Swipe and MatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swipe and MatchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA7C06BB227CE90B0054FE02 /* Swipe_and_MatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swipe_and_MatchUITests.swift; sourceTree = "<group>"; };
-		BA7C06BD227CE90B0054FE02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA7C06CA227CF0DA0054FE02 /* Extensions+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extensions+UIView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BA7C0695227CE90A0054FE02 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BA7C06A9227CE90B0054FE02 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BA7C06B4227CE90B0054FE02 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,8 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				BA7C069A227CE90A0054FE02 /* Swipe and Match */,
-				BA7C06AF227CE90B0054FE02 /* Swipe and MatchTests */,
-				BA7C06BA227CE90B0054FE02 /* Swipe and MatchUITests */,
 				BA7C0699227CE90A0054FE02 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,8 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				BA7C0698227CE90A0054FE02 /* Swipe and Match.app */,
-				BA7C06AC227CE90B0054FE02 /* Swipe and MatchTests.xctest */,
-				BA7C06B7227CE90B0054FE02 /* Swipe and MatchUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +56,7 @@
 		BA7C069A227CE90A0054FE02 /* Swipe and Match */ = {
 			isa = PBXGroup;
 			children = (
+				BA7C06C9227CEC950054FE02 /* Extensions */,
 				BA7C069B227CE90A0054FE02 /* AppDelegate.swift */,
 				BA7C069D227CE90A0054FE02 /* ViewController.swift */,
 				BA7C069F227CE90A0054FE02 /* Main.storyboard */,
@@ -107,22 +67,12 @@
 			path = "Swipe and Match";
 			sourceTree = "<group>";
 		};
-		BA7C06AF227CE90B0054FE02 /* Swipe and MatchTests */ = {
+		BA7C06C9227CEC950054FE02 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				BA7C06B0227CE90B0054FE02 /* Swipe_and_MatchTests.swift */,
-				BA7C06B2227CE90B0054FE02 /* Info.plist */,
+				BA7C06CA227CF0DA0054FE02 /* Extensions+UIView.swift */,
 			);
-			path = "Swipe and MatchTests";
-			sourceTree = "<group>";
-		};
-		BA7C06BA227CE90B0054FE02 /* Swipe and MatchUITests */ = {
-			isa = PBXGroup;
-			children = (
-				BA7C06BB227CE90B0054FE02 /* Swipe_and_MatchUITests.swift */,
-				BA7C06BD227CE90B0054FE02 /* Info.plist */,
-			);
-			path = "Swipe and MatchUITests";
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,42 +95,6 @@
 			productReference = BA7C0698227CE90A0054FE02 /* Swipe and Match.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BA7C06AB227CE90B0054FE02 /* Swipe and MatchTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BA7C06C3227CE90B0054FE02 /* Build configuration list for PBXNativeTarget "Swipe and MatchTests" */;
-			buildPhases = (
-				BA7C06A8227CE90B0054FE02 /* Sources */,
-				BA7C06A9227CE90B0054FE02 /* Frameworks */,
-				BA7C06AA227CE90B0054FE02 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BA7C06AE227CE90B0054FE02 /* PBXTargetDependency */,
-			);
-			name = "Swipe and MatchTests";
-			productName = "Swipe and MatchTests";
-			productReference = BA7C06AC227CE90B0054FE02 /* Swipe and MatchTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		BA7C06B6227CE90B0054FE02 /* Swipe and MatchUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BA7C06C6227CE90B0054FE02 /* Build configuration list for PBXNativeTarget "Swipe and MatchUITests" */;
-			buildPhases = (
-				BA7C06B3227CE90B0054FE02 /* Sources */,
-				BA7C06B4227CE90B0054FE02 /* Frameworks */,
-				BA7C06B5227CE90B0054FE02 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BA7C06B9227CE90B0054FE02 /* PBXTargetDependency */,
-			);
-			name = "Swipe and MatchUITests";
-			productName = "Swipe and MatchUITests";
-			productReference = BA7C06B7227CE90B0054FE02 /* Swipe and MatchUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -192,14 +106,6 @@
 				TargetAttributes = {
 					BA7C0697227CE90A0054FE02 = {
 						CreatedOnToolsVersion = 10.2.1;
-					};
-					BA7C06AB227CE90B0054FE02 = {
-						CreatedOnToolsVersion = 10.2.1;
-						TestTargetID = BA7C0697227CE90A0054FE02;
-					};
-					BA7C06B6227CE90B0054FE02 = {
-						CreatedOnToolsVersion = 10.2.1;
-						TestTargetID = BA7C0697227CE90A0054FE02;
 					};
 				};
 			};
@@ -217,8 +123,6 @@
 			projectRoot = "";
 			targets = (
 				BA7C0697227CE90A0054FE02 /* Swipe and Match */,
-				BA7C06AB227CE90B0054FE02 /* Swipe and MatchTests */,
-				BA7C06B6227CE90B0054FE02 /* Swipe and MatchUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,20 +138,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA7C06AA227CE90B0054FE02 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BA7C06B5227CE90B0054FE02 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -257,39 +147,11 @@
 			files = (
 				BA7C069E227CE90A0054FE02 /* ViewController.swift in Sources */,
 				BA7C069C227CE90A0054FE02 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BA7C06A8227CE90B0054FE02 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BA7C06B1227CE90B0054FE02 /* Swipe_and_MatchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BA7C06B3227CE90B0054FE02 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BA7C06BC227CE90B0054FE02 /* Swipe_and_MatchUITests.swift in Sources */,
+				BA7C06CB227CF0DA0054FE02 /* Extensions+UIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		BA7C06AE227CE90B0054FE02 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BA7C0697227CE90A0054FE02 /* Swipe and Match */;
-			targetProxy = BA7C06AD227CE90B0054FE02 /* PBXContainerItemProxy */;
-		};
-		BA7C06B9227CE90B0054FE02 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BA7C0697227CE90A0054FE02 /* Swipe and Match */;
-			targetProxy = BA7C06B8227CE90B0054FE02 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		BA7C069F227CE90A0054FE02 /* Main.storyboard */ = {
@@ -463,88 +325,6 @@
 			};
 			name = Release;
 		};
-		BA7C06C4227CE90B0054FE02 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JL84E9GK95;
-				INFOPLIST_FILE = "Swipe and MatchTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vmihai12.Swipe-and-MatchTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swipe and Match.app/Swipe and Match";
-			};
-			name = Debug;
-		};
-		BA7C06C5227CE90B0054FE02 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JL84E9GK95;
-				INFOPLIST_FILE = "Swipe and MatchTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vmihai12.Swipe-and-MatchTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swipe and Match.app/Swipe and Match";
-			};
-			name = Release;
-		};
-		BA7C06C7227CE90B0054FE02 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JL84E9GK95;
-				INFOPLIST_FILE = "Swipe and MatchUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vmihai12.Swipe-and-MatchUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Swipe and Match";
-			};
-			name = Debug;
-		};
-		BA7C06C8227CE90B0054FE02 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JL84E9GK95;
-				INFOPLIST_FILE = "Swipe and MatchUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vmihai12.Swipe-and-MatchUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Swipe and Match";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -562,24 +342,6 @@
 			buildConfigurations = (
 				BA7C06C1227CE90B0054FE02 /* Debug */,
 				BA7C06C2227CE90B0054FE02 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BA7C06C3227CE90B0054FE02 /* Build configuration list for PBXNativeTarget "Swipe and MatchTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BA7C06C4227CE90B0054FE02 /* Debug */,
-				BA7C06C5227CE90B0054FE02 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BA7C06C6227CE90B0054FE02 /* Build configuration list for PBXNativeTarget "Swipe and MatchUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BA7C06C7227CE90B0054FE02 /* Debug */,
-				BA7C06C8227CE90B0054FE02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
