@@ -25,8 +25,6 @@ class ViewController: UIViewController {
         cardView.fillSuperview()
     }
 
-    // MARK:- Fileprivate
-
     fileprivate func setupLayout() {
         let overallStackView = UIStackView(arrangedSubviews: [topStackView, cardsDeckView, buttonsStackView])
         overallStackView.axis = .vertical
