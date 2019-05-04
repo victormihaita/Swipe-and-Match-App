@@ -17,6 +17,8 @@ class HomeViewController: UIViewController {
         return [
             Advertiser(title: "We got a new design!", brandName: "Slack", posterPhotoName: "advertiser_poster"),
             User(name: "Kelly", age: 23, profession: "Music DJ", imageName: "lady5c"),
+            User(name: "Jane", age: 18, profession: "Teacher", imageName: "lady4c"),
+            User(name: "Jane", age: 18, profession: "Teacher", imageName: "lady4c"),
             User(name: "Jane", age: 18, profession: "Teacher", imageName: "lady4c")
             ].map { ($0 as! ProducesCardViewModel).toCardViewModel() }
     }()
