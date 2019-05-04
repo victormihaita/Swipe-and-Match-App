@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA167EB6227D6A880019BED6 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA167EB5227D6A880019BED6 /* CardView.swift */; };
 		BA7C069C227CE90A0054FE02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7C069B227CE90A0054FE02 /* AppDelegate.swift */; };
 		BA7C069E227CE90A0054FE02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7C069D227CE90A0054FE02 /* ViewController.swift */; };
 		BA7C06A1227CE90A0054FE02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA7C069F227CE90A0054FE02 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA167EB5227D6A880019BED6 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		BA7C0698227CE90A0054FE02 /* Swipe and Match.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swipe and Match.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA7C069B227CE90A0054FE02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA7C069D227CE90A0054FE02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 			children = (
 				BA7C06CD227CF6210054FE02 /* HomeBottomControllsStackView.swift */,
 				BA7C06CF227CFAC00054FE02 /* TopNavigationStackView.swift */,
+				BA167EB5227D6A880019BED6 /* CardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 				BA7C069E227CE90A0054FE02 /* ViewController.swift in Sources */,
 				BA7C069C227CE90A0054FE02 /* AppDelegate.swift in Sources */,
 				BA7C06CB227CF0DA0054FE02 /* Extensions+UIView.swift in Sources */,
+				BA167EB6227D6A880019BED6 /* CardView.swift in Sources */,
 				BA7C06D0227CFAC00054FE02 /* TopNavigationStackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
