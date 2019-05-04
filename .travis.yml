@@ -1,0 +1,6 @@
+language: swift
+xcode_project: Swipe and Match.xcodeproj
+xcode_scheme: Swipe and Match
+osx_image: xcode10.2
+xcode_sdk: iphonesimulator12.2
+env: DESTINATION="platform=iOS Simulator,OS=12.2,name=iPhone XS"
