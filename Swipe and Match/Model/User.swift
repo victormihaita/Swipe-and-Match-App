@@ -5,10 +5,9 @@
 //  Created by Victor Mihaita on 04/05/2019.
 //
 
-import Foundation
 import UIKit
 
-struct User {
+struct User: ProducesCardViewModel {
     var name: String
     var age: Int
     var profession: String
