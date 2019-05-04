@@ -1,0 +1,4 @@
+language: swift
+xcode_project: Swipe\ and\ Match.xcodeproj
+xcode_scheme: Swipe\ and\ Match
+xcode_destination: platform=iOS Simulator,OS=10.1,name=iPhone X
